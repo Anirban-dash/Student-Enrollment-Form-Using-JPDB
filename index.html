@@ -52,15 +52,19 @@
                     <input name="dob" type="date" class="form-control" id="dob" required>
                 </div>
                 <div class="mb-3">
+                    <label for="addr" class="form-label">Address</label>
+                    <input name="addr" type="text" class="form-control" id="addr" required>
+                </div>
+                <div class="mb-3">
                     <label for="doe" class="form-label">Enrollment Date</label>
                     <input name="doe" type="date" class="form-control" id="doe" required>
                 </div>
                 <br>
 
                 <div class="d-flex justify-content-around mb-3">
-                    <button type="button" onclick="saveData()" id="save" class="btn btn-lg btn-primary btn-rounded">Save</button>
-                    <button type="button" id="update" class="btn btn-lg btn-primary btn-rounded">Update</button>
-                    <button type="button" id="reset" class="btn btn-lg btn-primary btn-rounded">Reset</button>
+                    <button type="button" onclick="saveData()" id="save" class="btn btn-primary btn-rounded">Save</button>
+                    <button type="button" onclick="updateData()" id="update" class="btn btn-primary btn-rounded">Update</button>
+                    <button type="button" onclick="resetForm()" id="reset" class="btn btn-primary btn-rounded">Reset</button>
                 </div>
             </form>
         </div>
