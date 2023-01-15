@@ -1,7 +1,7 @@
 var token = '90932417|-31949269994274047|90955712';
 var dbname = 'SCHOOL-DB';
 var relation = "STUDENT-TABLE";
-var baseUrl = "http://api.login2explore.com:5577";
+var baseUrl = "https://cors-anywhere.herokuapp.com/http://api.login2explore.com:5577";
 function resetForm() {
     $("#roll").val('')
     $("#name").val('');
